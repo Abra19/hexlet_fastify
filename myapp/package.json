@@ -10,9 +10,22 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@fastify/cookie": "^9.3.1",
+    "@fastify/flash": "^5.1.0",
+    "@fastify/formbody": "^7.4.0",
     "@fastify/middie": "^8.3.0",
+    "@fastify/session": "^10.7.0",
+    "@fastify/view": "^9.0.0",
     "cookie-parser": "^1.4.6",
     "fastify": "^4.26.1",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "sanitize-html": "^2.11.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.6",
+    "@types/morgan": "^1.9.9",
+    "@types/pug": "^2.0.10",
+    "@types/sanitize-html": "^2.11.0"
   }
 }
